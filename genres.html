@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .car {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .car img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .car h2 {
+            margin: 15px 0;
+            font-size: 18px;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <h1>genres</h1>
+    <div class="gallery">
+        <!-- romantic -->
+        <div class="romantic">
+            <img src="C:\Users\User\Desktop\projects\images\arijit.jpg">
+            <h2>Arijit singh</h2>
+        </div>
+        <div class="romantic">
+            <img src="C:\Users\User\Desktop\projects\images\kumar.jpg">
+            <h2>Kumar Sanu</h2>
+        </div>
+
+        <!-- rap -->
+        <div class="Rapper">
+            <img src="C:\Users\User\Desktop\projects\images\hanumankind.jpg">
+            <h2>Hanumankind</h2>
+        </div> 
+        <div class="Rapper">
+            <img src="C:\Users\User\Desktop\projects\images\yoyo.jpg">
+            <h2>Yo Yo honey singh</h2>
+        </div>
+
+        <!-- Funk -->
+        <div class="funk">
+            <img src="C:\Users\User\Desktop\projects\images\funk de.jpg">
+            <a href="https://www.youtube.com/watch?v=PjoP5wQH9dA">
+            <h2>Funk de beleza</h2>
+        </div>
+        <div class="funk">
+            <img src="C:\Users\User\Desktop\projects\images\nunca.jpg">
+            <a href="https://www.youtube.com/watch?v=9BBIGYTvdsg">
+            <h2>Nunca Muda</h2>
+        </div>
+        <div class="funk">
+            <img src="C:\Users\User\Desktop\projects\images\spooky.jpg">
+            <a href="https://www.youtube.com/watch?v=c12MvHsIB2o">
+            <h2>Spooky Funk</h2>
+        </div>
+        </div>
+</body>
+</html>
